@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">GestionIncidenciasComunidad</string>
+    <string name="title_register">Crea una cuenta para acceder</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellidos">Apellidos</string>
+    <string name="hint_piso">Piso y Letra (Opcional)</string>
+    <string name="hint_telefono">Teléfono (Opcional)</string>
+    <string name="btn_register">Crear cuenta</string>
+    <string name="txt_have_account">¿Ya tienes una cuenta? Inicia sesión</string>
+    <string name="welcome_msg">¡Bienvenido a nuestra comunidad de vecinos! Accede a tu cuenta</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="txt_not_registered">¿No estás registrado? Crea una cuenta</string>
+    <string name="title_home">Bienvenido a la comunidad</string>
+    <string name="btn_home">Registrar Incidencia</string>
+
+
+
 </resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "155530340455",
+    "project_id": "incidencias-comunidad",
+    "storage_bucket": "incidencias-comunidad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155530340455:android:8b9bd7f39b3ea6fc704cc2",
+        "android_client_info": {
+          "package_name": "com.example.gestionincidenciascomunidad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDihJNHJA1mK-PTY_kB4hZj_U9__8_rdZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

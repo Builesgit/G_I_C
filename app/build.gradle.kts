@@ -1,10 +1,13 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
+    /* Esta ruta es la que pegamos en el FireBase */
     namespace = "com.example.gestionincidenciascomunidad"
+
     compileSdk = 36
 
     defaultConfig {
@@ -33,6 +36,10 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
+    viewBinding {
+        enable = true
+    }
 }
 
 dependencies {
@@ -45,4 +52,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(platform("com.google.firebase:firebase-bom:33.1.0")) // Gestiona versiones solo
+    implementation("com.google.firebase:firebase-auth-ktx")     // Para el Login [cite: 21]
+    implementation("com.google.firebase:firebase-database-ktx") // Para los datos [cite: 22]
+    implementation("com.google.firebase:firebase-storage-ktx")  // Para las fotos [cite: 23]
 }
